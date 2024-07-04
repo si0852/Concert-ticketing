@@ -1,6 +1,5 @@
 ## 1. ERD 다이어그램
-![Screen Shot 2024-07-04 at 3 02 00 PM](https://github.com/si0852/Concert-ticketing/assets/64186698/2a5ce3cb-bd16-4f6c-81c2-ea6e510cf695)
-
+![KakaoTalk_Photo_2024-07-04-23-13-33](https://github.com/si0852/Concert-ticketing/assets/64186698/52b4fac4-3439-4aea-9134-0324aa2f8d18)
 ## 2. Table Info
 #### - CUSTOMER
 - 사용자의 정보(이름, 잔액)을 관리하는 테이블
