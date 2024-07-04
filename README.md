@@ -9,3 +9,6 @@
 ![시퀀스1](https://github.com/si0852/Concert-ticketing/assets/64186698/020f5a27-dbc5-47ef-bbc2-bfbd2e3fae2c)
 ![시퀀스2](https://github.com/si0852/Concert-ticketing/assets/64186698/7716146d-c32e-44f9-b1e9-9c5aa951871e)
 ![시퀀스3](https://github.com/si0852/Concert-ticketing/assets/64186698/712b49ca-3611-4a8d-aa11-aac3bbf2002a)
+
+#### 2. 플로우 차트
+![KakaoTalk_Image_2024-07-04-23-43-47](https://github.com/si0852/Concert-ticketing/assets/64186698/d575c802-bcdb-4661-a5fe-83c03211cc44)
