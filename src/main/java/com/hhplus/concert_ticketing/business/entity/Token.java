@@ -14,16 +14,16 @@ import java.time.LocalDateTime;
 @NoArgsConstructor(access = AccessLevel.PROTECTED)
 public class Token {
     @Id
-    Long tokenid;
+    Long tokenId;
     @NotNull
-    Long user_id;
+    Long userId;
     String token;
     String status; // waiting, working, expired
     LocalDateTime createdAt;
     LocalDateTime expiresAt;
 
-    public Token(Long user_id, String token, String status, LocalDateTime createdAt, LocalDateTime expiresAt) {
-        this.user_id = user_id;
+    public Token(Long userId, String token, String status, LocalDateTime createdAt, LocalDateTime expiresAt) {
+        this.userId = userId;
         this.token = token;
         this.status = status;
         this.createdAt = createdAt;

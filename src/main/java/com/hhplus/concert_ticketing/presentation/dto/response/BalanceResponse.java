@@ -5,12 +5,11 @@ import lombok.Getter;
 
 @Getter
 public class BalanceResponse {
-    Long userId;
+
     Long totalBalance;
 
     @Builder
-    public BalanceResponse(Long userId, Long totalBalance) {
-        this.userId = userId;
+    public BalanceResponse(Long totalBalance) {
         this.totalBalance = totalBalance;
     }
 }

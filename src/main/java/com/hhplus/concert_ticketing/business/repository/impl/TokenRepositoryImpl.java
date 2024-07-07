@@ -3,7 +3,9 @@ package com.hhplus.concert_ticketing.business.repository.impl;
 import com.hhplus.concert_ticketing.business.entity.Token;
 import com.hhplus.concert_ticketing.business.repository.TokenRepository;
 import com.hhplus.concert_ticketing.infra.JpaTokenRepository;
+import org.springframework.stereotype.Component;
 
+@Component
 public class TokenRepositoryImpl implements TokenRepository {
 
     private final JpaTokenRepository jpaTokenRepository;

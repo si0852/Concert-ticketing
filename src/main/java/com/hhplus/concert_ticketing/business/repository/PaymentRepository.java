@@ -12,5 +12,4 @@ public interface PaymentRepository {
 
     List<Payment> getPaymentData(Long reservationId);
 
-    List<Payment> getPaymentData(Long reservationId, String status);
 }

@@ -3,10 +3,12 @@ package com.hhplus.concert_ticketing.business.repository.impl;
 import com.hhplus.concert_ticketing.business.entity.ConcertOption;
 import com.hhplus.concert_ticketing.business.repository.ConcertOptionRepository;
 import com.hhplus.concert_ticketing.infra.JpaConcertOptionRepository;
+import org.springframework.stereotype.Component;
 
 import java.time.LocalDateTime;
 import java.util.List;
 
+@Component
 public class ConcertOptionRepositoryImpl implements ConcertOptionRepository {
 
     private final JpaConcertOptionRepository jpaConcertOptionRepository;

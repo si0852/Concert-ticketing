@@ -3,7 +3,9 @@ package com.hhplus.concert_ticketing.business.repository.impl;
 import com.hhplus.concert_ticketing.business.entity.Concert;
 import com.hhplus.concert_ticketing.business.repository.ConcertRepository;
 import com.hhplus.concert_ticketing.infra.JpaConcertRepository;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ConcertRepositoryImpl implements ConcertRepository {
 
     private final JpaConcertRepository jpaConcertRepository;

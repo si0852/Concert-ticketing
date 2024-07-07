@@ -19,14 +19,14 @@ public class Seat {
     Long seatId;
 
     @NotNull
-    Long ConcertOptionId;
+    Long concertOptionId;
     @NotBlank
     String seatNumber;
     @NotBlank
     String status; // 잠김, 열림
 
     public Seat(Long concertOptionId, String seatNumber, String status) {
-        ConcertOptionId = concertOptionId;
+        this.concertOptionId = concertOptionId;
         this.seatNumber = seatNumber;
         this.status = status;
     }

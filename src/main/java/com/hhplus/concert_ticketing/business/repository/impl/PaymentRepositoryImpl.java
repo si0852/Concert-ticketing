@@ -3,9 +3,11 @@ package com.hhplus.concert_ticketing.business.repository.impl;
 import com.hhplus.concert_ticketing.business.entity.Payment;
 import com.hhplus.concert_ticketing.business.repository.PaymentRepository;
 import com.hhplus.concert_ticketing.infra.JpaPaymentRepository;
+import org.springframework.stereotype.Component;
 
 import java.util.List;
 
+@Component
 public class PaymentRepositoryImpl implements PaymentRepository {
 
     private final JpaPaymentRepository jpaPaymentRepository;
@@ -29,8 +31,4 @@ public class PaymentRepositoryImpl implements PaymentRepository {
         return jpaPaymentRepository.findByReservationId(reservationId);
     }
 
-    @Override
-    public List<Payment> getPaymentData(Long reservationId, String status) {
-        return jpaPaymentRepository.findByReservationIdAndStatusIs(reservationId, status);
-    }
 }

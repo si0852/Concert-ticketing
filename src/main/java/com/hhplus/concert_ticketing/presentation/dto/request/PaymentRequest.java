@@ -5,6 +5,8 @@ import lombok.Getter;
 @Getter
 public class PaymentRequest {
 
+    String token;
     Long reservation_id;
     Long amount;
+
 }
