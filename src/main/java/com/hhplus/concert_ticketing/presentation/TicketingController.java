@@ -118,6 +118,7 @@ public class TicketingController {
             @ApiResponse(responseCode = "200", description = "예약이 완료되었습니다.", content = @Content(mediaType = "application/json")),
             @ApiResponse(responseCode = "403", description = "예약정보가 존재합니다.", content = @Content(mediaType = "application/json")),
             @ApiResponse(responseCode = "404", description = "예약정보가 없습니다.", content = @Content(mediaType = "application/json")),
+            @ApiResponse(responseCode = "406", description = "예약정보가 없습니다.", content = @Content(mediaType = "application/json")),
             @ApiResponse(responseCode = "500", description = "서버에러", content = @Content(mediaType = "application/json"))
     })
     public ResponseEntity<ReservationResponse> reserveSeat(
