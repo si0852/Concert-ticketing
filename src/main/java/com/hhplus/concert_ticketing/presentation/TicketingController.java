@@ -166,8 +166,8 @@ public class TicketingController {
                 .build());
     }//getBalance
 
-    // 결제 API
-    @PostMapping("/api/pay")
+    // 결제 API -- test
+     @PostMapping("/api/pay")
     @Operation(summary = "결제 API", description = "결제 요청")
     @ApiResponses(value = {
             @ApiResponse(responseCode = "200", description = "결제가 완료되었습니다.", content = @Content(mediaType = "application/json")),
