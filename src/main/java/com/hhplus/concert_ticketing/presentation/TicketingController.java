@@ -166,7 +166,7 @@ public class TicketingController {
                 .build());
     }//getBalance
 
-    // 결제 API
+    // 결제 API - 수정
     @PostMapping("/api/pay")
     @Operation(summary = "결제 API", description = "결제 요청")
     @ApiResponses(value = {
