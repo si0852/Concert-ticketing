@@ -108,7 +108,7 @@ public class TicketingController {
     {
     "userId": 12345,
     "seatId": 67890,
-    "status": "WAITING"
+    "status": "WAITING"ㄴㅁㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㄴㅇ
     }
     raw 타입 Json으로 꼭!! ㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㄴㅇㄹ
     * */
