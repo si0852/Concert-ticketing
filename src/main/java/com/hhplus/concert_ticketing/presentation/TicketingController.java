@@ -110,7 +110,7 @@ public class TicketingController {
     "seatId": 67890,
     "status": "WAITING"
     }
-    raw 타입 Json으로 꼭!!
+    raw 타입 Json으로 꼭!! ㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㅁㄴㅇㄹㄴㅇㄹ
     * */
     @PostMapping("/api/reserve")
     @Operation(summary = "좌석 예약 API", description = "좌석 예약 요청")
